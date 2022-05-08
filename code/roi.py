@@ -1,6 +1,8 @@
 import cv2
 import numpy as np
 
+# 3.43 ms ± 65.8 µs per loop (mean ± std. dev. of 7 runs, 100 loops each)
+#   when img.shape is (1280, 720, 3), s is 1
 def roi(img: np.ndarray, s: int = 1) -> tuple:
     
     img1 = img
