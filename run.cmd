@@ -1,0 +1,1 @@
+python main.py --cont_prefix human*.png
