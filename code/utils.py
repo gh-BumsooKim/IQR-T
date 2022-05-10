@@ -9,12 +9,18 @@ def build_parser() -> argparse.ArgumentParser:
     parser.add_argument("--cont_prefix", type=str, default=None,
                         help="path with prefix of content images")
     
+    parser.add_argument("--eval_prefix", type=str, default=None,
+                        help="path with prefix of images to evaluate")
+    
     parser.add_argument("--calibration_config", type=str, default=None,
                         help="path of the file containing the camera-projector\
                             calibration parameters")
 
     parser.add_argument("--track_mode", type=int, default=0,
-                        help="mode about region tracking")                        
+                        help="mode about region tracking")  
+
+    parser.add_argument("--eval_mode", type=bool, default=False,
+                        help="mode to evaluate fitted model")                        
                             
     # Advanced Options
     
