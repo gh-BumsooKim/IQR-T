@@ -1,7 +1,7 @@
-# DRET
-Deformable Region Estimation and Tracking of Rectangular 6-DoF Object for Artistic Dynamic Projection Mapping Exhibition
+# IQR-T
+Irregular Quadrilateral Region Tracking using ARIMA for Dynamic Projection Mapping
 
-![image](https://user-images.githubusercontent.com/67869508/166136326-66f6f557-ebcf-447f-b15e-a953be759873.png)
+![image](https://user-images.githubusercontent.com/67869508/169051499-9072b3ca-3b18-45ec-a5da-bafc9c2cc5ec.png)
 
 ## Requirements
 
